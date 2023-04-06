@@ -1,0 +1,30 @@
+
+version: '3'
+services:
+
+  node1:
+    image: miniblockchain
+    build:
+      context: .
+      dockerfile: Dockerfile
+    network_mode: host
+    volumes:
+      - .:/app
+      - ~/.m2:/root/.m2
+    command:  "first 8000"
+  node2:
+    image: miniblockchain
+    network_mode: host
+    command:  "second 8001"
+    volumes:
+      - .:/app
+      - ~/.m2:/root/.m2
+  node3:
+    image: miniblockchain
+    network_mode: host
+    command: "third 8002"
+    volumes:
+      - .:/app
+      - ~/.m2:/root/.m2
+
+
