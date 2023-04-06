@@ -35,5 +35,5 @@ docker-compose up
 ## License
 - [MIT](/LICENSE)
 ## Testing
-- main [![Tests](https://github.com/Phambanam/mini_blockchain/actions/workflows/maven.yml/badge.svg?branch=main)](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml)
-- develop [![Tests](https://github.com/Phambanam/mini_blockchain/actions/workflows/maven.yml/badge.svg?branch=develop)](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml)
+- main [![Tests](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml)
+- develop [![Tests](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml/badge.svg?branch=develop)](https://github.com/Phambanam/mini_blockchain/actions/workflows/test.yml)
